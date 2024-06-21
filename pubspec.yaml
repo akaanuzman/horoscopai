@@ -16,6 +16,8 @@ dependencies:
   # Core Dependencies
   easy_localization: ^3.0.7
   cupertino_icons: ^1.0.6
+  lottie: ^3.1.2
+  flutter_svg: ^2.0.10+1
 
 dev_dependencies:
   flutter_test:
@@ -23,9 +25,26 @@ dev_dependencies:
 
   very_good_analysis: ^5.1.0
   flutter_lints: ^3.0.0
+  build_runner: ^2.4.11
+  flutter_gen_runner: ^5.5.0+1
+
+flutter_gen:
+  output: lib/products/asset/
+
+  integrations:
+    lottie: true
+    flutter_svg: true
+
+  colors:
+    inputs:
+      - assets/color/colors.xml
 
 flutter:
   uses-material-design: true
 
   assets:
+    - assets/color/
+    - assets/icons/
+    - assets/images/
+    - assets/lotties/
     - assets/translations/
