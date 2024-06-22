@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="primary">#614FFE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkBackground">#0B022C</color>
+    <color name="brandiesBlue">#0072FF</color>
+    <color name="sugarGrape">#A140FF</color>
+    <color name="meteorShower">#5F39FF</color>
+    <color name="shadyNeonBlue">#6256FE</color>
+    <color name="deepDenim">#6782FE</color>
+    <color name="blueViolet">#8A8AFE</color>
+    <color name="fennelFlower">#6BA7FE</color>
+    <color name="mayaBlue">#6EC4FE</color>
+    <color name="heisenbergBlue">#71D8FE</color>
+    <color name="robinsEgg">#72E4FE</color>
+    <color name="mayasEgg">#73E9FE</color>
+    <color name="quackQuack">#FFE98D</color>
+    <color name="eveningGlow">#FED694</color>
+    <color name="matDazzleRose">#FC3DD3</color>
 </resources>

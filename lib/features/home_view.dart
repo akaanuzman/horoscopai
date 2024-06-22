@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:horoscopai/products/asset/assets.gen.dart';
-import 'package:horoscopai/products/enums/device_locales.dart';
 import 'package:horoscopai/products/init/app_localizations.dart';
 import 'package:horoscopai/products/init/language/locale_keys.g.dart';
+import 'package:horoscopai/products/utility/enums/device_locales.dart';
+import 'package:kartal/kartal.dart';
 
 /// Home view for the application
 final class HomeView extends StatelessWidget {
@@ -34,9 +34,11 @@ final class HomeView extends StatelessWidget {
             },
             child: const Text(LocaleKeys.general_buttons_save).tr(),
           ),
-          Assets.images.imgFlags.image(),
-          Assets.icons.icLove.svg(),
-          Assets.lotties.animZombie.lottie(),
+          context.sized.emptySizedHeightBoxLow3x,
+          OutlinedButton(onPressed: () {}, child: const Text('data')),
+          // Assets.images.imgFlags.image(),
+          // Assets.icons.icLove.svg(),
+          // Assets.lotties.animZombie.lottie(),
         ],
       ),
     );

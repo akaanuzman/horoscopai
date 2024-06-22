@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:horoscopai/products/enums/device_locales.dart';
+import 'package:horoscopai/products/utility/enums/device_locales.dart';
 
 @immutable
 
