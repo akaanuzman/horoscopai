@@ -26,22 +26,33 @@ class $AssetsColorGen {
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/ic_logo.png
+  AssetGenImage get icLogo => const AssetGenImage('assets/icons/ic_logo.png');
+
   /// File path: assets/icons/ic_love.svg
   SvgGenImage get icLove => const SvgGenImage('assets/icons/ic_love.svg');
 
   /// List of all assets
-  List<SvgGenImage> get values => [icLove];
+  List<dynamic> get values => [icLogo, icLove];
 }
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/img_background.png
+  AssetGenImage get imgBackground =>
+      const AssetGenImage('assets/images/img_background.png');
+
   /// File path: assets/images/img_flags.png
   AssetGenImage get imgFlags =>
       const AssetGenImage('assets/images/img_flags.png');
 
+  /// File path: assets/images/img_logo.png
+  AssetGenImage get imgLogo =>
+      const AssetGenImage('assets/images/img_logo.png');
+
   /// List of all assets
-  List<AssetGenImage> get values => [imgFlags];
+  List<AssetGenImage> get values => [imgBackground, imgFlags, imgLogo];
 }
 
 class $AssetsLottiesGen {
