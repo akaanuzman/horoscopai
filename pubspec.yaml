@@ -20,17 +20,21 @@ dependencies:
   flutter_svg: ^2.0.10+1
   kartal: ^4.0.4
   auto_route: ^8.2.0
+  envied: ^0.5.4+1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  
   very_good_analysis: ^5.1.0
   flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+  # Generation
   build_runner: ^2.4.11
   flutter_gen_runner: ^5.5.0+1
   auto_route_generator: ^8.0.0
-  flutter_launcher_icons: ^0.13.1
+  envied_generator: ^0.5.4+1
 
 flutter_launcher_icons:
   android: true
@@ -59,3 +63,4 @@ flutter:
     - assets/images/
     - assets/lotties/
     - assets/translations/
+    - assets/env/

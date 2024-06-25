@@ -10,8 +10,11 @@
 .svn/
 migrate_working_dir/
 
+# Dart
+*.env
 *.g.dart
 *.gr.dart
+
 # IntelliJ related
 *.iml
 *.ipr

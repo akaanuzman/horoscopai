@@ -11,7 +11,7 @@ Future<void> main() async {
   runApp(AppLocalizations(child: const _MyApp()));
 }
 
-class _MyApp extends StatelessWidget {
+final class _MyApp extends StatelessWidget {
   const _MyApp();
   static final appRouter = AppRouter();
 

@@ -23,6 +23,19 @@ class $AssetsColorGen {
   List<String> get values => [colors];
 }
 
+class $AssetsEnvGen {
+  const $AssetsEnvGen();
+
+  /// File path: assets/env/.dev.env
+  String get aDev => 'assets/env/.dev.env';
+
+  /// File path: assets/env/.prod.env
+  String get aProd => 'assets/env/.prod.env';
+
+  /// List of all assets
+  List<String> get values => [aDev, aProd];
+}
+
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
@@ -83,6 +96,7 @@ class Assets {
   Assets._();
 
   static const $AssetsColorGen color = $AssetsColorGen();
+  static const $AssetsEnvGen env = $AssetsEnvGen();
   static const $AssetsIconsGen icons = $AssetsIconsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsLottiesGen lotties = $AssetsLottiesGen();

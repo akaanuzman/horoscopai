@@ -4,12 +4,12 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:easy_logger/easy_logger.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:horoscopai/products/init/config/app_environment.dart';
 
 @immutable
 
 /// This class is used to initialize the app process.
 final class AppInitialize {
-
   /// This method is used to initialize the app process.
   Future<void> initialize() async {
     WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +17,7 @@ final class AppInitialize {
     await runZonedGuarded<Future<void>>(
       _initialize,
       (error, stack) {
-          /// crashlytics insert here
+        /// crashlytics insert here
       },
     );
   }
@@ -35,6 +35,6 @@ final class AppInitialize {
       // Logger().e(details.exceptionAsString());
     };
 
-    // AppEnvironment.general();
+    AppEnvironment.general();
   }
 }
