@@ -1,4 +1,5 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:horoscopai/features/auth/login/login_view.dart';
 import 'package:horoscopai/features/home_view.dart';
 import 'package:horoscopai/features/splash/splash_view.dart';
 
@@ -13,5 +14,6 @@ final class AppRouter extends _$AppRouter {
   List<AutoRoute> get routes => [
         AutoRoute(page: SplashRoute.page, initial: true),
         AutoRoute(page: HomeRoute.page),
+        AutoRoute(page: LoginRoute.page),
       ];
 }

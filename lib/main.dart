@@ -19,6 +19,7 @@ class _MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       routerConfig: appRouter.config(),
+      debugShowCheckedModeBanner: false,
       title: 'Horoscopai',
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,

@@ -9,7 +9,6 @@ import 'package:flutter/services.dart';
 
 /// This class is used to initialize the app process.
 final class AppInitialize {
-
   /// This method is used to initialize the app process.
   Future<void> initialize() async {
     WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +16,7 @@ final class AppInitialize {
     await runZonedGuarded<Future<void>>(
       _initialize,
       (error, stack) {
-          /// crashlytics insert here
+        /// crashlytics insert here
       },
     );
   }

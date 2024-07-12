@@ -7,13 +7,25 @@
         "buttons": {
             "save": "Save",
             "cancel": "Cancel",
-            "changeLanguage": "Change Language"
+            "changeLanguage": "Change Language",
+            "login": "Giriş Yap",
+            "register": "Kayıt Ol"
         },
         "dialogs": {
             "version": {
                 "title": "Version",
                 "message": "Version: {0}"
             }
+        }
+    },
+    "logreg": {
+        "textfield": {
+            "eposta": "E-Posta",
+            "password": "Şifre"
+        },
+        "advancedoptions": {
+            "forgotpassword": "Şifreni mi unuttun ?",
+            "registernow": "Hemen üye ol!"
         }
     }
 }
